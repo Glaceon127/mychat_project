@@ -1,0 +1,38 @@
+# Qt编译产物
+build*/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.qm
+*.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+.qmake.cache
+.qmake.stash
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Qt Creator配置文件
+*.user
+*.user.*
+*.autosave
+CMakeLists.txt.user*
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

@@ -127,13 +127,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QListWidget" name="pass_edit">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
+        <widget class="QLineEdit" name="pass_edit">
          <property name="minimumSize">
           <size>
            <width>0</width>

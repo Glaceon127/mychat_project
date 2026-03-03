@@ -70,13 +70,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QListWidget" name="user_edit">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
+            <widget class="QLineEdit" name="user_edit">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -115,13 +109,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QListWidget" name="email_edit">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
+            <widget class="QLineEdit" name="email_edit">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -160,13 +148,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QListWidget" name="pass_edit">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
+            <widget class="QLineEdit" name="pass_edit">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -205,13 +187,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QListWidget" name="confirm_edit">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
+            <widget class="QLineEdit" name="confirm_edit">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -250,13 +226,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QListWidget" name="captcha_edit">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
+            <widget class="QLineEdit" name="captcha_edit">
              <property name="minimumSize">
               <size>
                <width>0</width>

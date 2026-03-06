@@ -1,0 +1,5 @@
+# Visual Studio 临时文件
+.vs/
+Debug/
+x64/
+*.user

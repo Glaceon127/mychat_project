@@ -27,7 +27,14 @@ void myregister::on_captcha_get_clicked()
     QRegularExpression regex(R"(^[a-zA-Z0-9_%+-]+(\.[a-zA-Z0-9_%+-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z]{2,}$)");
     bool match = regex.match(email).hasMatch();
     if(match){
-
+        //发送http验证码
+        QJsonObject json_obj;
+        json_obj["email"] = email;
+        QJsonDocument doc(json_obj);
+        QString jsonString = doc.toJson(QJsonDocument::Indented);
+        qDebug().noquote() << jsonString;
+        qDebug() << gate_url_prefix;
+        HttpMgr::GetInstance()->PostHttpReq(QUrl(gate_url_prefix+"/get_verifycode"),json_obj,ReqId::ID_GET_CAPTCHA,Modules::REGISTERMOD);
     }else{
         showTip(tr("邮箱地址不正确"), false);
     }

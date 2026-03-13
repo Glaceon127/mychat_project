@@ -21,25 +21,32 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    clickedlabel.cpp \
     global.cpp \
     httpmgr.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp \
-    myregister.cpp
+    myregister.cpp \
+    resetdialog.cpp \
+    timerbtn.cpp
 
 HEADERS += \
+    clickedlabel.h \
     global.h \
     httpmgr.h \
     login.h \
     mainwindow.h \
     myregister.h \
-    singleton.h
+    resetdialog.h \
+    singleton.h \
+    timerbtn.h
 
 FORMS += \
     login.ui \
     mainwindow.ui \
-    myregister.ui
+    myregister.ui \
+    resetdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
